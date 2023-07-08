@@ -22,6 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 nav > ul{
     display: flex;
@@ -43,4 +44,72 @@ nav li{
 nav a{
     text-decoration: none;
     color:#474747 ;
+}
+/*header sty*/
+
+.head{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding:30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.b-hadding{
+    color: var(--dark-01, #181818);
+font-family: Open Sans;
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.b-title{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 0px;
+}
+.b-dis{
+    display: flex;
+width: 585px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 0PX;
+
+}
+.btn-cv{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 20px;
+font-size: 20px;
+color: white;
+font-weight: 700;
+padding: 15px 35px;
+
+}
+.btn-con{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 20px;
+font-size: 20px;
+color: white;
+font-weight: 700;
+padding: 15px 35px;
+}
+.pic{
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
 }
